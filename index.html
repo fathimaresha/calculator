@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./script.js">
+    <script src="./script.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./script.js">
+<link rel="stylesheet" href="./todo.css">
+
+</head>
+<body>
+<h1 class="text-center">CALCULATOR</h1>
+<div class="container w-25">
+    
+        <h3>casio</h3>
+        
+        
+
+    <div class="row"><input type="text" id="result" placeholder="Enter"></div>
+    <div class="row">
+        <div class="col-3 "><button class="btn btn-secondary px-4 m-1" onclick="displayNum(7)" type="submit">7</button></div>
+        <div class="col-3"><button class="btn btn-secondary px-4 m-1" onclick="displayNum(8)" type="submit">8</button></div>
+        <div class="col-3"><button class="btn btn-secondary px-4 m-1" onclick="displayNum(9)" type="submit">9</button></div>
+        <div class="col-3"><button class="btn btn-secondary px-4 m-1" onclick="displayNum('*')" type="submit">x</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-3"><button class="btn btn-secondary px-4 m-1" onclick="displayNum(4)" type="submit">4</button></div>
+        <div class="col-3"><button class="btn btn-secondary px-4 m-1" onclick="displayNum(5)" type="submit">5</button></div>
+        <div class="col-3"><button class="btn btn-secondary px-4 m-1" onclick="displayNum(6)" type="submit">6</button></div>
+        <div class="col-3"><button class="btn btn-secondary px-4 m-1" onclick="displayNum('-')" type="submit">-</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-3"><button class="btn btn-secondary px-4 m-1" onclick="displayNum(1)" type="submit">1</button></div>
+        <div class="col-3"><button class="btn btn-secondary px-4 m-1" onclick="displayNum(2)" type="submit">2</button></div>
+        <div class="col-3"><button class="btn btn-secondary px-4 m-1" onclick="displayNum(3)" type="submit">3</button></div>
+        <div class="col-3"><button class="btn btn-secondary px-4 m-1" onclick="displayNum('+')" type="submit">+</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-3"><button class="btn btn-secondary px-4 m-1" onclick="clearNum()" type="submit">AC</button></div>
+        <div class="col-3"><button class="btn btn-secondary px-4 m-1" onclick="displayNum(0)" type="submit">0</button></div>
+        <div class="col-3"><button class="btn btn-secondary px-4 m-1" onclick="displayNum()" type="submit">/</button></div>
+        <div class="col-3"><button class="btn btn-secondary px-4 m-1" onclick="evaluateNum()" type="submit">=</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-3"><button class="btn btn-secondary px-4 m-1" type="submit"><i class="fa-solid fa-delete-left"></i></button></div>
+     </div>   
+</div>
+
+
+</body>
+</html>
